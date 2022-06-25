@@ -35,13 +35,10 @@ print("""\u001b[31m
 |Melakukan kesalahan terhadap kalian     |
 |Jadi jangan kalian DDoS server server   |
 |Kecil, jadi Don't abuse                 |
-\u001b[31m""")
-
 time.sleep(5)
 os.system("clear")
 print(""
-    TOOLS BY ZIELXXX || PLEASE DON'T ABUSE !!!
-"")
+    TOOLS BY ZIELX |+| PLEASE DON'T ABUSE !!!
 
 
 \033[0m 
