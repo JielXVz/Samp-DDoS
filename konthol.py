@@ -23,7 +23,7 @@ for i in range(3):
 		print("[×] WRONG PASSWORD!!! ")
 		continue
 time.sleep(5)
-print("{} Your Account Ha Been Accepted! \033[92mZieLx\033[0m ")
+print("{} Your Account Has Been Accepted! \033[92mZieLx\033[0m ")
 time.sleep(5)
 os.system("clear")
 print("\u001b[31m{} Baca Dulu Goblog!")
@@ -36,6 +36,7 @@ print("""\u001b[31m
 |Jadi jangan kalian DDoS server server   |
 |Kecil, jadi Don't abuse                 |
 time.sleep(5)
+
 os.system("clear")
 print(""
     TOOLS BY ZIELX |+| PLEASE DON'T ABUSE !!!
