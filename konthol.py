@@ -1,4 +1,5 @@
-#decode by ryhs
+#heikontol
+#zielx
 import random
 import socket
 import threading
