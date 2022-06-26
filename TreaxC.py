@@ -38,9 +38,9 @@ print("""\033[92
   ░        ░░   ░  ░    ░  
             ░      ░    ░  """) 
 print("\033[92m========= ZieLx DDoS Tools =========") 
->> Author : ZieLx
->>> Coded : ZieLx
->>>> Discord Comunity : https://discord.gg/treax""")
+print("\033[92m>> Author : ZieLx") 
+print("\033[92m>>> Coded : ZieLx") 
+print("\033[92m>>>> Discord Comunity : https://discord.gg/treax""")
 ip = str(input("[+] Ip Target : "))
 port = int(input("[-] Port Target : "))
 choice = str(input("[+] Ready?? (ddos/n) : "))
